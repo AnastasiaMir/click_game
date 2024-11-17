@@ -78,7 +78,7 @@ class Game(QMainWindow):
         for btn_list in self.buttons:
             for btn in btn_list:
                 btn.setText("")
-                btn.setStyleSheet("background-color: #d9f2ff; color: midnightblue")
+                btn.setStyleSheet("background-color: #d9f2ff; color: #a5bdfd")
                 btn.setEnabled(True)
         self.label.setText("Player X turn")
 
